@@ -1,3 +1,7 @@
+0.14  Tue, 05 Jul 2011 23:51:47 +0200
+  * Use metacpan.org instead of search.cpan.org for the distribution homepage
+    metadata.
+
 0.13  Tue, 05 Oct 2010 00:24:29 +0200
   * Allow 'catsvn' to be used to refer to dists in Catalyst's SVN repository.
   * Use AutoPrereqs instead of the deprecated AutoPrereq plugin.
