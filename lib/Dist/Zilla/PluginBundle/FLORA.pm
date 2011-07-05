@@ -42,7 +42,7 @@ It is roughly equivalent to:
   repository.web    = http://github.com/rafl/${lowercase_dist}
   bugtracker.web    = http://rt.cpan.org/Public/Dist/Display.html?Name=${dist}
   bugtracker.mailto = bug-${dist}@rt.cpan.org
-  homepage          = http://search.cpan.org/dist/${dist}
+  homepage          = http://metacpan.org/release/${dist}
 
   [Authority]
   authority   = cpan:FLORA
@@ -158,7 +158,7 @@ method _build_homepage_url {
 has _cpansearch_pattern => (
     is      => 'ro',
     isa     => Str,
-    default => 'http://search.cpan.org/dist/%s',
+    default => 'http://metacpan.org/release/%s',
 );
 
 has repository => (
