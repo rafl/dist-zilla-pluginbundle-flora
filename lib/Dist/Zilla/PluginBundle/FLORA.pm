@@ -25,8 +25,7 @@ distributions.
 
 It is roughly equivalent to:
 
-  [@Filter]
-  bundle = @Basic
+  [@Basic]
 
   [MetaConfig]
   [MetaJSON]
